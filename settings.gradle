@@ -1,0 +1,4 @@
+include ':apt-processer'
+include ':aptlib'
+include ':app'
+rootProject.name = "Apt"
