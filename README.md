@@ -10,11 +10,11 @@
 
 
 
-build.gradle(:apt-precesser) dependencies中必须添加 annotationProcessor 'com.google.auto.service:auto-service:1.0-rc2'
+build.gradle(:apt-precesser)   dependencies中必须添加 annotationProcessor 'com.google.auto.service:auto-service:1.0-rc2'
 
 dependencies {
-    implementation 'com.squareup:javapoet:1.8.0'
-    implementation 'com.google.auto.service:auto-service:1.0-rc2'
-    annotationProcessor  'com.google.auto.service:auto-service:1.0-rc2'
+    implementation 'com.squareup:javapoet:1.8.0'  
+    implementation 'com.google.auto.service:auto-service:1.0-rc2'  
+    annotationProcessor  'com.google.auto.service:auto-service:1.0-rc2'  
     implementation project(path: ':aptlib')
 }
